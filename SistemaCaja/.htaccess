@@ -1,0 +1,25 @@
+RewriteEngine On
+#Forma local
+#ErrorDocument 404 G:/ServidorApache/xampp/htdocs/at/404.php
+
+#En el Hosting
+#ErrorDocument 404 /404.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^inicio.jn$ index.php [L]
+RewriteRule ^configoptionsmenu.jn$ ConfigMVC/configMenu.ini.php [L]
+
+
+
+
+
+
+#RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?ctr=$1 [L]
+#RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?ctr=$1&met=$2 [L]
+#RewriteRule ^([a-zA-Z0-9_-]+)/([0-9]+)$ index.php?ctr=$1&err=$2 [L]
+ 
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?ctr=$1
+#RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?ctr=$1&met=$2

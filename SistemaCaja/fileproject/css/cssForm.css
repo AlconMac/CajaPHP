@@ -1,0 +1,249 @@
+/*********************************
+*ESTILOS PARA EL FOMULARIO
+*********************************/
+.formulariosA1 .txtForm1{
+	font-family:Verdana, Geneva, sans-serif; color:#666; font-size:11px;
+}
+.formulariosA1 fieldset{
+	border:#CCC solid 1px; padding:5px; margin:1px;
+}
+.formulariosA1 fieldset legend{
+	font-family:Verdana, Geneva, sans-serif; color:#333; font-size:12px; font-weight:bold; padding-top:5px; padding-bottom:5px;
+}
+
+.formulariosA1 fieldset label{
+	width: 85px;
+	display: block;
+	float:left;
+	background-color:#F3F3F3;
+	margin:1px;
+	cursor:pointer;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333;
+	height:21px;
+	padding:5px;
+}
+.formulariosA1 fieldset label span{
+	font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#000; float:left; font-weight:bold;
+}
+.formulariosA1 fieldset label:hover {
+	background-color:#E8E8E8; 
+	cursor:pointer;
+}
+
+.formulariosA1 fieldset input[type="text"]{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333;
+	height:20px;	
+	border:#999 solid 1px;
+	width:225px;
+}
+
+.formulariosA1 fieldset input[type="checkbox"]{
+	/*float:left;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333;
+	height:20px;*/
+	margin-top:7px;
+	cursor:pointer;
+}
+.formulariosA1 fieldset input[type="radio"]{
+	/*float:left;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333;
+	height:20px;*/
+	margin-top:7px;
+	cursor:pointer;
+}
+
+.formulariosA1 fieldset select{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333;	
+	padding:6px;
+	border:#999 solid 1px;
+}
+
+.formulariosA1 fieldset textarea{
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333;	
+	padding:6px;
+	border:#999 solid 1px;
+	width:225px;
+}
+
+.formulariosA1 fieldset span{
+	font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#666;
+}
+.formulariosA1 .linkfrm a{
+  color:#999; font-family:Verdana, Geneva, sans-serif; font-size:11px; text-decoration:none;
+}
+.formulariosA1 .linkfrm a:hover{
+  text-decoration:underline; color:#333;
+}
+
+.BotonStan1{
+      background: url(data:image/gif;base64,R0lGODlhAgAXAMQAAO7v7+Tm5uvt7eXn5/Lz8+/w8Ozu7unr6/Dx8e3v7+rs7Ofp6fT19ejq6vX29ubo6PP09PHy8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAACABcAAAUioCM6DAOdEEFEbIQgRQEASWIYgqAox9H8jcXiQXwMBoFACAA7);background-repeat:repeat-x; background-position:bottom;
+	  font-size:11px; font-family:Verdana, Geneva, sans-serif; color:#333;
+	  padding:5px;
+	  display:inline-block;
+	  background-color:#f5f6f6;
+	  text-decoration:none;
+	  cursor:pointer; border:#999999 solid 1px;
+}
+.BotonStan2{
+	/*
+	background-image:url(../img/sistema/formularios/imgBoton.gif); background-repeat:repeat-x;
+	*/
+    background: url(data:image/gif;base64,R0lGODlhAwATAMQAAAAAAP///wF3uAF1tgJ9wAJ6vQJ5ugOBxwN/xASGzwWL1gSEywaQ3QWJ0geU5AeS4QaO2gia7QiZ6wiY6QiW5////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABUALAAAAAADABMAAAUfYCRK5GRSqKM+LONCsCI3dGIv+KEjPOEXQINQQBwYQwA7);
+	
+	background-repeat:repeat-x; background-position:bottom;
+	  font-size:11px; font-family:Verdana, Geneva, sans-serif; color:#fff;
+	  padding:5px;
+  	  display:inline-block;
+	  background-color:#089aed;
+  	  text-decoration:none;
+	  cursor:pointer; border:#0078B3 solid 1px;
+}
+.BotonStan3{
+	/*
+	background-image:url(../img/sistema/formularios/imgBoton.gif); background-repeat:repeat-x;
+	
+    background: url(data:image/gif;base64,R0lGODlhAwATAMQAAAAAAP///wF3uAF1tgJ9wAJ6vQJ5ugOBxwN/xASGzwWL1gSEywaQ3QWJ0geU5AeS4QaO2gia7QiZ6wiY6QiW5////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABUALAAAAAADABMAAAUfYCRK5GRSqKM+LONCsCI3dGIv+KEjPOEXQINQQBwYQwA7);
+	
+	background-repeat:repeat-x; background-position:bottom;*/
+	background-color:#000000;
+	  font-size:11px; font-family:Verdana, Geneva, sans-serif; color:#fff;
+	  padding:5px;
+  	  display:inline-block;
+  	  text-decoration:none;
+	  cursor:pointer; border:#000000 solid 1px;
+}
+
+.paddingCmd{
+	padding:12px;
+}
+
+.paddingCmd2{
+	padding:7px;
+}
+.paddingCmd3{
+	padding:12px;
+}
+
+
+/*********************************
+*ESTILOS OTROS
+*********************************/
+.formError{
+   font-family:Verdana, Geneva, sans-serif; color:#F00 ; font-size:14px; font-weight:bold; padding:4px;
+}
+
+/*********************************
+*ESTILOS PARA LAS GRILLAS
+*********************************/
+
+#GrillaList .GrillaTable table .titu2{
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#596573;
+	padding:4px;
+	background-image:url(../img/sistema/administrador/imgfondogrillatop.gif); background-repeat:repeat-x; background-position:bottom;
+	background-color:#FFF;border-right:#CCC solid 1px; border-bottom:#CCC solid 1px;
+}
+
+
+
+#GrillaList{
+	width:800px; margin:0px auto;
+	clear:both;
+}
+#GrillaList .GrillaTable{
+	width:800px;
+	clear:both;
+	overflow:auto;
+}
+
+#GrillaList .GrillaTable table{
+	border:#CCC solid 1px;
+}
+
+#GrillaList .GrillaTable table tr{
+	background-color:#F7F7F7
+}
+#GrillaList .GrillaTable table img{
+	cursor:pointer;
+}
+
+#GrillaList .GrillaTable table tr{
+	background-color:#FFF;
+}
+
+#GrillaList .GrillaTable table tr:hover{
+	background-color:#EFEFEF;
+}
+
+#GrillaList .GrillaTable table .titu{
+	font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#707070;
+	padding:4px;
+}
+
+#GrillaList .GrillaTable table .textCont{
+	font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#4E4E4E;
+}
+#GrillaList .GrillaTable table .textCont2{
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#0f3861;
+	border-bottom:#CCC solid 1px; border-right:#CCC solid 1px;
+}
+
+.GrillaMenu{
+	padding:2px; overflow:hidden;
+}
+.GrillaMenu .txtpaginacion{
+	float:left; font-family:Arial, Helvetica, sans-serif; color:#666; font-size:12px; padding-left:5px;
+	padding-top:7px;
+}
+#paginacion {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+#paginacion li {	
+	margin:1px;	
+	padding:0px;
+	float:left;
+}
+
+#paginacion li a {
+	display:block;
+	font-family:Geneva, Arial, Helvetica, sans-serif;	
+	border:#999999 solid 1px;	
+	text-decoration:none;
+	text-align:center;
+	font-size:12px;
+	color:#333;
+	background-color:#e5e5e5;
+	padding-top:4px; padding-bottom:4px; padding-left:7px; padding-right:7px;
+}
+
+#paginacion li a:hover{
+	color:#3894EF;	
+}
+
+#paginacion li strong{
+	display:block;
+	font-family:Geneva, Arial, Helvetica, sans-serif;	
+	border:#0078b3 solid 1px;	
+	text-decoration:none;
+	text-align:center;
+	font-size:12px;
+	color:#FFF;
+	background-color:#0279ba;
+	padding-top:4px; padding-bottom:4px; padding-left:7px; padding-right:7px;
+}
+
+#paginacion li span{
+	display:block;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:1px;
+	padding-bottom:1px;
+	text-align:center;
+	font-size:12px;
+	color:#3894EF;
+}

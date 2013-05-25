@@ -1,0 +1,13 @@
+.dvl_Tips_G_b{ 
+	background-image:url(../img/img_plugin/tooltip/icoBottomG.gif); background-repeat:no-repeat; background-position:6px; margin-top:-1px; height:9px;
+}
+.dvl_Tips_G_t{
+	background-image:url(../img/img_plugin/tooltip/icoTopG.gif); background-repeat:no-repeat; background-position:6px; margin-bottom:-1px; height:9px;
+}
+/***/
+.dvl_Tips_c_b{ 
+	background-image:url(../img/img_plugin/tooltip/icoBottom2.gif); background-repeat:no-repeat; background-position:6px; margin-top:-1px; height:5px;
+}
+.dvl_Tips_c_t{
+	background-image:url(../img/img_plugin/tooltip/icoTop2.gif); background-repeat:no-repeat; background-position:6px; margin-bottom:-1px;  height:5px;
+}
