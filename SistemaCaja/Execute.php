@@ -1,6 +1,6 @@
 <?php
 /******************************
- *EJECUTA UNA CLASE Y SU METODO 
+ *EJECUTA UNA CLASE Y SU METODO Luis Miguel
  *******************************/
 $clase=(isset($_GET["ctr"]))?(string)trim($_GET["ctr"])."Control":"";
 $metodo=(isset($_GET["met"]))?(string)trim($_GET["met"]):"index";
